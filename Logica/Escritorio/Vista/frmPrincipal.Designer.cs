@@ -34,6 +34,7 @@
             this.registrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.candidatasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.municipiosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.usuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,14 +60,15 @@
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
             this.salirToolStripMenuItem.Text = "Salir";
             // 
             // registrosToolStripMenuItem
             // 
             this.registrosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.candidatasToolStripMenuItem,
-            this.municipiosToolStripMenuItem});
+            this.municipiosToolStripMenuItem,
+            this.usuariosToolStripMenuItem});
             this.registrosToolStripMenuItem.Name = "registrosToolStripMenuItem";
             this.registrosToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.registrosToolStripMenuItem.Text = "Modulos";
@@ -82,6 +84,12 @@
             this.municipiosToolStripMenuItem.Name = "municipiosToolStripMenuItem";
             this.municipiosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.municipiosToolStripMenuItem.Text = "Municipios";
+            // 
+            // usuariosToolStripMenuItem
+            // 
+            this.usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
+            this.usuariosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.usuariosToolStripMenuItem.Text = "Usuarios";
             // 
             // frmPrincipal
             // 
@@ -108,5 +116,6 @@
         private System.Windows.Forms.ToolStripMenuItem registrosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem candidatasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem municipiosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem usuariosToolStripMenuItem;
     }
 }
