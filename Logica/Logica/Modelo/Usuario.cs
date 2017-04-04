@@ -15,16 +15,10 @@ namespace Logica.Modelo
         public int pkUsuario { get; set; }
 
         [StringLength(128)]
-        public String sUsuario { get; set; }
-
-        [StringLength(128)]
         public String sPassword { get; set; }
 
         [StringLength(128)]
-        public String sNombre { get; set; }
-
-        [StringLength(128)]
-        public String sApellidos { get; set; }
+        public String sNombreCompleto { get; set; }
 
         public Boolean bStatus { get; set; }
 
