@@ -17,6 +17,7 @@ namespace Logica
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Form1());
+            //ESTO ES UN CAMBIO PARA PROBAR SI FUNCIONA GITHUB 
         }
     }
 }
