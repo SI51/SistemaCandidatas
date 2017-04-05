@@ -14,17 +14,15 @@ namespace Logica.Modelo
         [Key]
         public int pkUsuario { get; set; }
 
-        [StringLength(128)]
+        [StringLength(200)]
         public String sPassword { get; set; }
 
-        [StringLength(128)]
+        [StringLength(100)]
         public String sNombreCompleto { get; set; }
-
+        
         public Boolean bStatus { get; set; }
 
-        public virtual Rol roles { get; set; }
-        
-        public ICollection<Candidata> candidatas { get; set; }
+        public virtual Rol rol { get; set; }
 
         public Usuario()
         {

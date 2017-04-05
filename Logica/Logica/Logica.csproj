@@ -71,25 +71,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Migrations\201704042248328_INICIAL.cs" />
-    <Compile Include="Migrations\201704042248328_INICIAL.Designer.cs">
-      <DependentUpon>201704042248328_INICIAL.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201704042311099_CAMBIOS.cs" />
-    <Compile Include="Migrations\201704042311099_CAMBIOS.Designer.cs">
-      <DependentUpon>201704042311099_CAMBIOS.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201704050006169_Cambio-bStatus-Municipio.cs" />
-    <Compile Include="Migrations\201704050006169_Cambio-bStatus-Municipio.Designer.cs">
-      <DependentUpon>201704050006169_Cambio-bStatus-Municipio.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201704050213517_CAMBIO3.cs" />
-    <Compile Include="Migrations\201704050213517_CAMBIO3.Designer.cs">
-      <DependentUpon>201704050213517_CAMBIO3.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201704050254011_cambiosBasededatos.cs" />
-    <Compile Include="Migrations\201704050254011_cambiosBasededatos.Designer.cs">
-      <DependentUpon>201704050254011_cambiosBasededatos.cs</DependentUpon>
+    <Compile Include="Migrations\201704050443573_NuevaBaseDatos.cs" />
+    <Compile Include="Migrations\201704050443573_NuevaBaseDatos.Designer.cs">
+      <DependentUpon>201704050443573_NuevaBaseDatos.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Modelo\Candidata.cs" />
@@ -101,20 +85,8 @@
     <Compile Include="Modelo\Usuario.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Migrations\201704042248328_INICIAL.resx">
-      <DependentUpon>201704042248328_INICIAL.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201704042311099_CAMBIOS.resx">
-      <DependentUpon>201704042311099_CAMBIOS.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201704050006169_Cambio-bStatus-Municipio.resx">
-      <DependentUpon>201704050006169_Cambio-bStatus-Municipio.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201704050213517_CAMBIO3.resx">
-      <DependentUpon>201704050213517_CAMBIO3.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201704050254011_cambiosBasededatos.resx">
-      <DependentUpon>201704050254011_cambiosBasededatos.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201704050443573_NuevaBaseDatos.resx">
+      <DependentUpon>201704050443573_NuevaBaseDatos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -137,7 +109,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

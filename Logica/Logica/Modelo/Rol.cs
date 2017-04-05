@@ -14,10 +14,11 @@ namespace Logica.Modelo
         [Key]
         public int pkRol { get; set; }
 
-        [StringLength(128)]
-        public String sRol { get; set; }
+        [StringLength(200)]
+        public String sNombre { get; set; }
 
         public ICollection<Usuario> Usuarios { get; set; }
         public ICollection<PermisoNegado> PermisosNegados { get; set; }
+
     }
 }

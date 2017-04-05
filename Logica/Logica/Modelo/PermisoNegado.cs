@@ -14,14 +14,7 @@ namespace Logica.Modelo
         [Key]
         public int pkPermisoNegado { get; set; }
 
-        public Boolean bStatus { get; set; }
-
-        public virtual Rol roles { get; set; }
-        public virtual Permiso permisos { get; set; }
-
-        public PermisoNegado()
-        {
-            this.bStatus = true;
-        }
+        public virtual Rol rol { get; set; }
+        public virtual Permiso permiso { get; set; }
     }
 }

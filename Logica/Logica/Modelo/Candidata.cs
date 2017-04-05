@@ -12,35 +12,42 @@ namespace Logica.Modelo
     public class Candidata
     {
         [Key]
+
         public int pkCandidata { get; set; }
 
-        [StringLength(128)]
+        [StringLength(50)]
+        [Required(ErrorMessage = "Campo requerido")]
         public string sNombre { get; set; }
 
-        public int iAnioConvocatoria { get; set; }
+        public int dAnio { get; set; }
 
-        public DateTime dtFechaNacimiento { get; set; }
+        public DateTime dFechaNac { get; set; }
 
-        [StringLength(250)]
+        [StringLength(150)]
+        [Required(ErrorMessage = "Campo requerido")]
+        public string sDescripcion { get; set; }
+
+        [StringLength(100)]
+        [Required(ErrorMessage = "Campo requerido")]
         public string sCorreo { get; set; }
 
         [StringLength(100)]
+        [Required(ErrorMessage = "Campo requerido")]
         public string sCurp { get; set; }
 
         [StringLength(100)]
-        public string sNivelEstudio { get; set; }
+        [Required(ErrorMessage = "Campo requerido")]
+        public string sNivel { get; set; }
 
         [StringLength(200)]
+        [Required(ErrorMessage = "Campo requerido")]
         public string sFoto { get; set; }
-
-        [StringLength(200)]
-        public string sDescripcion { get; set; }
 
         public Boolean bStatus { get; set; }
 
         public int iRanking { get; set; }
 
-        public virtual Municipio Municipios { get; set; }
+        public virtual Municipio Municipio { get; set; }
         public virtual Usuario Usuarios { get; set; }
 
         public Candidata()

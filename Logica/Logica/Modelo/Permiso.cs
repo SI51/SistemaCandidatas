@@ -14,10 +14,10 @@ namespace Logica.Modelo
         [Key]
         public int pkPermiso { get; set; }
 
-        [StringLength(128)]
-        public String sPermiso { get; set; }
+        [StringLength(200)]
+        public String sNombre { get; set; }
 
-        [StringLength(128)]
+        [StringLength(200)]
         public String sDescripcion { get; set; }
 
         public ICollection<PermisoNegado> PermisosNegados { get; set; }

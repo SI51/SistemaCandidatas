@@ -22,9 +22,9 @@ namespace Escritorio.Controlador
                     return ctx.Municipios.Where(r => r.bStatus == true).ToList();
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                throw;
+                throw new Exception(ex.Message);
             }
         }
     }
