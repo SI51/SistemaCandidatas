@@ -22,6 +22,13 @@ namespace Logica.Modelo
 
         public string sDescripcion { get; set; }
 
+        public Boolean bStatus { get; set; }
+
         public ICollection<Candidata> Candidatas { get; set; }
+
+        public Municipio()
+        {
+            this.bStatus = true;
+        }
     }
 }
