@@ -141,7 +141,10 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="FotoCandidata\" />
+    <Folder Include="Logotipo\" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Logica\Logica.csproj">
       <Project>{844204bd-3f81-42da-89a8-953ff3ae0d95}</Project>

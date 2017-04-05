@@ -84,6 +84,7 @@
             this.municipiosToolStripMenuItem.Name = "municipiosToolStripMenuItem";
             this.municipiosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.municipiosToolStripMenuItem.Text = "Municipios";
+            this.municipiosToolStripMenuItem.Click += new System.EventHandler(this.municipiosToolStripMenuItem_Click);
             // 
             // usuariosToolStripMenuItem
             // 

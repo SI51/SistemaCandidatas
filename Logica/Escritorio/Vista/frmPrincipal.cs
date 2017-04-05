@@ -16,5 +16,11 @@ namespace Escritorio
         {
             InitializeComponent();
         }
+
+        private void municipiosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Escritorio.Vista.frmMunicipio municipio = new Vista.frmMunicipio();
+            municipio.Show();
+        }
     }
 }
