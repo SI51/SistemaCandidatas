@@ -20,6 +20,7 @@ namespace Logica.Modelo
         [StringLength(128)]
         public string sLogo { get; set; }
 
+        [StringLength(200)]
         public string sDescripcion { get; set; }
 
         public Boolean bStatus { get; set; }
