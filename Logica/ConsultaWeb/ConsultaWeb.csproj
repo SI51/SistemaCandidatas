@@ -141,10 +141,37 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assens\css\bootstrap-theme.css" />
+    <Content Include="Assens\css\bootstrap.min.css" />
+    <Content Include="Assens\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Assens\js\bootstrap.min.js" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
+    <Content Include="scripts\bootstrap.js" />
+    <Content Include="scripts\bootstrap.min.js" />
+    <None Include="scripts\jquery-1.10.2-vsdoc.js" />
+    <Content Include="scripts\jquery-1.10.2.js" />
+    <Content Include="scripts\jquery-1.10.2.min.js" />
+    <Content Include="scripts\modernizr-2.6.2.js" />
     <Content Include="Web.config" />
+    <Content Include="Assens\css\bootstrap.min.css.map" />
+    <Content Include="Assens\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Assens\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Assens\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Assens\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Assens\css\bootstrap-theme.css.map" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Home\Index.cshtml" />
     <None Include="_bin_deployableAssemblies\x86\sqlcese40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceqp40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceme40.dll" />

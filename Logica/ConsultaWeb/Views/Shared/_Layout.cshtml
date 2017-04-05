@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <title>Escuela [ @ViewBag.Title ]</title>
+    <link href="~/Assens/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Assens/css/bootstrap-theme.css" rel="stylesheet" />
+</head>
+<body>
+    <!--AQUI VA EL CODIGO PARA TOP DE LA PAGINA-->
+    <div class="jumbotron">
+        <h3>Sistema Candidatas</h3>
+    </div>
+
+    @RenderBody() <!--ESTE LUGAR VA ESTAR CAMBIANDO, ES DECIR, SERA DINAMICO-->
+
+    <!--AQUI VA EL CODIGO PARA EL PIE DE LA PAGINA-->   
+    <script src="~/Assens/js/bootstrap.min.js"></script> <!--SIEMPRE JQUERY HASTA LO ULTIMO SE CARGA-->
+</body>
+</html>

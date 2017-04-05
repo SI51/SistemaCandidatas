@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "Catalogo de Candidatas";
+    List<Logica.Modelo.Candidata> datos = ViewBag.Datos;
+}
+
+<div class="container">
+    @foreach(Logica.Modelo.Candidata item in datos){
+        <div>
+            <div class="row">
+                <img class="card-img-top img-cand img-fluid img-thumbnail" 
+                 src="data:image/png;base64,@item.sFoto" alt="@item.sNombre">
+            </div>
+            <div class="row">
+                <ul class="list-group">
+                    <li class="list-group-item">Nombre: @item.sNombre</li>
+                </ul>
+            </div>
+        </div>
+    }
+</div>
+

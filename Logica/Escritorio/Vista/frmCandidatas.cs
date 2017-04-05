@@ -7,10 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
 using Logica.Modelo;
 using Escritorio.Controlador;
-
 
 namespace Escritorio.Vista
 {
