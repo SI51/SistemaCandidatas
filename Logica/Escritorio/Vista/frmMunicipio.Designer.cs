@@ -130,7 +130,6 @@
             this.sDescripcion.HeaderText = "Descripcion";
             this.sDescripcion.Name = "sDescripcion";
             this.sDescripcion.ReadOnly = true;
-            this.sDescripcion.Width = 200;
             // 
             // sStatus
             // 
@@ -143,7 +142,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(573, 366);
+            this.ClientSize = new System.Drawing.Size(577, 366);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnAgregar);

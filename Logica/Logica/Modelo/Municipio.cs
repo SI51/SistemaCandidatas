@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
+using System.Data.Entity;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -25,8 +27,8 @@ namespace Logica.Modelo
 
         public Boolean bStatus { get; set; }
 
-        public ICollection<Candidata> Candidatas { get; set; }
-
+        public ICollection<Candidata> candidatas { get; set; }
+        
         public Municipio()
         {
             this.bStatus = true;

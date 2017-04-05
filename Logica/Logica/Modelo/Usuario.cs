@@ -23,6 +23,8 @@ namespace Logica.Modelo
         public Boolean bStatus { get; set; }
 
         public virtual Rol roles { get; set; }
+        
+        public ICollection<Candidata> candidatas { get; set; }
 
         public Usuario()
         {

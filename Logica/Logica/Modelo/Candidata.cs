@@ -33,6 +33,7 @@ namespace Logica.Modelo
         [StringLength(200)]
         public string sFoto { get; set; }
 
+        [StringLength(200)]
         public string sDescripcion { get; set; }
 
         public Boolean bStatus { get; set; }

@@ -17,6 +17,7 @@ namespace Logica.Modelo
         [StringLength(128)]
         public String sPermiso { get; set; }
 
+        [StringLength(128)]
         public String sDescripcion { get; set; }
 
         public ICollection<PermisoNegado> PermisosNegados { get; set; }
